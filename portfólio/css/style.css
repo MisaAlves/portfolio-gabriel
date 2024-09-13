@@ -1,0 +1,265 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Ubuntu";
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    background-image: url("https://capsule-render.vercel.app/api?type=waving&color=047af9&height=120&section=footer");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-color:#333;
+    
+}
+
+
+
+
+header {
+    background-color: #13678A; 
+    color: #fff;
+    padding: 1rem;
+    background-image:url(../imagens/header.jpg) ;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.header-nav ul li {
+    margin: 0 15px;
+}
+
+.header-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+      
+}
+
+.header-right:hover{
+    cursor: pointer;
+    transition: 0.8s;
+    transform: scale(1.1);
+    background-color:#007BFF;
+    border-radius: 10px;
+    color: cornsilk;
+}
+
+.header-right h1 {
+    margin-right: 15px;
+}
+
+.header-right img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+#home{
+    text-align: center;
+}
+
+#home > h1{
+    color: white;
+    
+}
+
+#home > p{
+    color: white;
+}
+
+#sobre{
+    
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    text-align: left;
+}
+
+#sobre > h2{
+    color: white;
+    
+}
+
+#sobre >  p{
+    color: white;
+    text-align: left;
+    width: 40%;
+    padding-top: 65px;
+
+    
+}
+
+
+.flex-container{
+    display: flex;
+    align-items: center;
+ 
+}
+
+.image{
+    width: 300px;
+    height: auto;
+    border-radius: 25%;
+    margin-right: 20px;
+}
+
+.flex-container img:hover{
+    cursor: pointer;
+    transition: 2s;
+    transform: scale(1.1);
+}
+
+.text{
+    color: white;
+    flex: 1;
+}
+
+.habilidades > h1{
+    color: white;
+    margin-right: 20px;
+}
+
+.habilidades{
+    display: flex;
+    height: 50px;
+    margin-left: 600px;
+}
+
+.habilidades:hover{
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.1);
+    
+}
+
+#contato{
+    text-align: center;
+    color: white;
+}
+
+#contato >ul{
+    list-style: none;
+}
+
+.home:hover{
+    cursor: pointer;
+    transition: 2s;
+    transform: scale(1.1);
+    
+}
+
+section h2 {
+    border-bottom: 2px solid #007BFF; 
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#hobbies{
+    color: white;
+}
+
+.hobbies {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hobby {
+    text-align: center;
+    font-size: 25px;
+}
+
+.hobby img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+
+}
+
+.hobbies img:hover{
+    cursor: pointer;
+    transition: 2s;
+    transform: scale(1.1);
+    border-style: solid;
+    border-color: #007BFF;
+}
+
+
+footer {
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    background-image:url(../imagens/header.jpg) ;
+}
+
+footer ul.social-media {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul.social-media li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul.social-media li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer ul.social-media li a:hover {
+    text-decoration: underline;
+}
+
+
+.icon{
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.icon:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    cursor: pointer;
+    color: #DBF227;
+    
+}
